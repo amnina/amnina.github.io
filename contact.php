@@ -1,9 +1,17 @@
- <?php 
+ <?php
+
+$errors = '';
+if(empty($_POST['name'])  ||
+   empty($_POST['email']) ||
+   empty($_POST['message']))
+{
+    $errors .= "\n Error: all fields are required";
+}
 if(isset($_POST['submit'])) {
      $to ='amanina_hadi@yahoo.com';
-     $from =  $_POST['demo-email'];
+     $from =  $_POST['email'];
      $subject = 'Message from Website';
-     $message = $_POST['demo-message'];
+     $message = $_POST['message'];
     $headers = "From: $from\n";
     $headers .= "MIME-Version: 1.0\n";
     $headers .= "Content-type: text/html; charset=iso-8859-1\n";
