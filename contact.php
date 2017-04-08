@@ -1,5 +1,5 @@
  <?php 
-if(isset($_POST['send'])) {
+if(isset($_POST['submit'])) {
      $to ='amanina_hadi@yahoo.com';
      $from =  $_POST['demo-email'];
      $subject = 'Message from Website';
