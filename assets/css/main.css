@@ -734,7 +734,7 @@
 					padding-right: 0;
 				}
 
-				/** ul.icons li a {
+				ul.icons li a {
 					border-radius: 100%;
 					box-shadow: inset 0 0 0 1px #ffffff;
 					display: inline-block;
@@ -742,7 +742,7 @@
 					line-height: 2.25rem;
 					text-align: center;
 					width: 2.25rem;
-				} **/
+				} 
 
 					ul.icons li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
@@ -1228,7 +1228,7 @@
 			height: 5.5rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
-			border-radius: 100%;
+			border-radius: 0%;
 		}
 
 			#header .logo .icon:before {
