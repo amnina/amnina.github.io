@@ -2730,13 +2730,15 @@ body.search-is-visible {
 @media screen and (max-width:1600px) {
   .s-header {
     width: 100%;
+    /*width: 290px;*/
   }
 
 }
 
 @media screen and (max-width:1200px) {
   .s-header {
-    width: 270px;
+    /*width: 270px;*/
+    width: 100%;
     padding-right: 2.8rem;
     padding-left: 4rem;
   }
