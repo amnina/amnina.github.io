@@ -2728,7 +2728,7 @@ body.search-is-visible {
  * responsive:
  * header
  * ------------------------------------------------------------------- */
-/*
+
 @media screen and (max-width:1600px) {
   .s-header {
     width: 290px;
@@ -2736,7 +2736,7 @@ body.search-is-visible {
   
 
 }
-*/
+
 
 @media screen and (max-width:1200px) {
   .s-header {
