@@ -2200,9 +2200,6 @@ input::-moz-focus-inner {
 
 .s-header {
   z-index: 100;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
