@@ -2206,7 +2206,8 @@ input::-moz-focus-inner {
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
-  width: 300px;
+  width: 100%;
+  /*300px*/
   background-color: #151515;
   padding-top: 6.4rem;
   padding-right: 3.2rem;
