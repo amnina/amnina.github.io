@@ -2751,6 +2751,7 @@ body.search-is-visible {
   .s-header {
     width: 100%;
     /*background: transparent;*/
+    background-color: #151515;
     padding: 0;
     position: static;
     top: 0;
