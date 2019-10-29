@@ -2200,6 +2200,9 @@ input::-moz-focus-inner {
 
 .s-header {
   z-index: 100;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
@@ -2209,7 +2212,7 @@ input::-moz-focus-inner {
   padding-right: 3.2rem;
   padding-left: 4.4rem;
   overflow-y: auto;
-  overflow-x: auto;
+  overflow-x: hidden;
   vertical-align: top;
   position: fixed;
   bottom: 0;
