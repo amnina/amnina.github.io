@@ -2212,7 +2212,7 @@ input::-moz-focus-inner {
   padding-right: 3.2rem;
   padding-left: 4.4rem;
   overflow-y: auto;
-  overflow-x: auto;
+  overflow-x: hidden;
   vertical-align: top;
   position: fixed;
   bottom: 0;
@@ -2233,8 +2233,8 @@ input::-moz-focus-inner {
 }
 
 .header__logo img {
-  width: 225px;
-  height: 50px;
+  width: 125px;
+  height: 30px;
   margin: 0;
 }
 
@@ -2750,12 +2750,11 @@ body.search-is-visible {
 @media screen and (max-width:1100px) {
   .s-header {
     width: 100%;
-    /*background: transparent;*/
-    background: #151515;
+    background: transparent;
     padding: 0;
-    position: fixed;
+    position: static;
     top: 0;
-
+    bottom: auto;
   }
 
   .header__top {
@@ -2769,24 +2768,17 @@ body.search-is-visible {
   }
 
   .header__logo {
-    /*margin-top: 4px;
+    margin-top: 4px;
     -webkit-transform: translate3d(0, -50%, 0);
     transform: translate3d(0, -50%, 0);
     position: absolute;
     top: 50%;
-    
-*/
-margin-top: 25px;
-margin-left: 25px;
+    left: 4rem;
   }
 
   .header__logo img {
-/*
     width: 120px;
     height: 29px;
-*/
-  width: 225px;
-  height: 50px;
   }
 
   .header__nav-wrap {
