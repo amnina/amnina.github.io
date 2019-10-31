@@ -2907,9 +2907,11 @@ body.search-is-visible {
 }
 
 @media screen and (max-width:500px) {
+  /*
   .header__nav-wrap {
     padding: 152px 44px 64px;
   }
+  */
 
 }
 
@@ -2918,9 +2920,9 @@ body.search-is-visible {
     left: 3rem;
   }
 
-  .header__nav-wrap {
+/*  .header__nav-wrap {
     padding: 140px 40px 64px;
-  }
+  } */
 
   .header__menu-toggle {
     right: 3rem;
