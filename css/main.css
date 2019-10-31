@@ -2214,7 +2214,9 @@ input::-moz-focus-inner {
   overflow-y: auto;
   overflow-x: auto;
   vertical-align: top;
-  position: fixed;
+  /*position: fixed;*/
+  height: 78px;
+  position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
@@ -2753,9 +2755,9 @@ body.search-is-visible {
     /*background: transparent;*/
     background: #151515;
     padding: 0;
-    position: static;
+    position: fixed;
     top: 0;
-    bottom: auto;
+
   }
 
   .header__top {
