@@ -2753,7 +2753,7 @@ body.search-is-visible {
     height: 75px;
     background: transparent;
     padding: 0;
-    position: static;
+    position: fixed;
     top: 0;
     bottom: auto;
   }
