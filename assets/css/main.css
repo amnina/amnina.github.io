@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
-
+@import url("https://fonts.googleapis.com/css?family=Amiri:400,700");
 /*
 	Story by HTML5 UP
 	html5up.net | @ajlkn
@@ -210,6 +210,10 @@ input, select, textarea {
 
 	h2 {
 		font-size: 2.25rem;
+	}
+	
+	h2.arabic {
+		font-family: 'Amiri', serif;
 	}
 
 	h3 {
@@ -8246,7 +8250,7 @@ input, select, textarea {
 	.index > * {
 		border-top-color: rgba(0, 0, 0, 0.2);
 	}
-
+	
 /* Wrapper */
 
 	#wrapper {
