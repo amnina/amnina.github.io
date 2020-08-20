@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
-@import url("https://fonts.googleapis.com/css?family=Amiri:400,700");
+@import url("https://fonts.googleapis.com/css?family=Scheherazade:700");
 /*
 	Story by HTML5 UP
 	html5up.net | @ajlkn
@@ -213,7 +213,7 @@ input, select, textarea {
 	}
 	
 	h2.arabic {
-		font-family: 'Amiri', serif;
+		font-family: 'Scheherazade', serif;
 	}
 
 	h3 {
