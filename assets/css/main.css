@@ -190,10 +190,6 @@ input, select, textarea {
 		p.major {
 			font-size: 1.25rem;
 		}
-		
-		p.minor {
-			justify-content: flex-start;
-		}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
@@ -286,6 +282,14 @@ input, select, textarea {
 		hr.major {
 			margin: 3.5rem 0;
 		}
+		
+	span.block {
+		display: block;
+	}
+	
+	div.inline-block {
+		display: inline-block;
+	}
 
 	.align-left {
 		text-align: left;
@@ -8254,6 +8258,41 @@ input, select, textarea {
 	.index > * {
 		border-top-color: rgba(0, 0, 0, 0.2);
 	}
+	
+	.timer {
+  border-radius: 2px;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+  display: inline-block;
+  margin: 25px;
+  padding: 25px 30px;
+}
+
+.timer__item {
+  display: inline-block;
+  text-align: center;
+}
+
+.timer__item + .timer__item {
+  margin-left: 20px;
+}
+
+.timer__value,
+.timer__label {
+  display: block;
+}
+
+.timer__value {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.timer__label {
+  color: #777;
+  font-size: 12px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
 	
 /* Wrapper */
 
