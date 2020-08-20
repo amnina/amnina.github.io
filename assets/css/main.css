@@ -190,6 +190,10 @@ input, select, textarea {
 		p.major {
 			font-size: 1.25rem;
 		}
+		
+		p.minor {
+			justify-content: flex-start;
+		}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
