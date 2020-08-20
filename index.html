@@ -1,605 +1,359 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
+
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
     <meta charset="utf-8">
-    <title>Nina</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Walimatul Urus</title>
     <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"> -->
+    <!-- Place favicon.ico in the root directory -->
 
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
 <body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-
-    <div id="top" class="s-wrap site-wrapper">
-
-        <!-- site header
-        ================================================== -->
-        <header class="s-header">
-
-            <div class="header__top">
-                <div class="header__logo">
-                    <a class="site-logo" href="index.html">
-                        <img src="images/Nina_log.svg" alt="Homepage">
-                    </a>
-                </div>
-
-                <div class="header__search">
-    
-                    <form role="search" method="get" class="header__search-form" action="#">
-                        <label>
-                            <span class="hide-content">Search for:</span>
-                            <input type="search" class="header__search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
-                        </label>
-                        <input type="submit" class="header__search-submit" value="Search">
-                    </form>
-        
-                    <a href="#0" title="Close Search" class="header__search-close">Close</a>
-        
-                </div>  <!-- end header__search -->
-
-                <!-- toggles -->
-                <a href="#0" class="header__search-trigger"></a>
-                <a href="#0" class="header__menu-toggle"><span>Menu</span></a>
-
-            </div> <!-- end header__top -->
-
-            <nav class="header__nav-wrap">
-
-                <ul class="header__nav">
-                    <li class="current"><a href="index.html" title="">Home</a></li>
-                    <li class="has-children">
-                        <a href="#0" title="">Categories</a>
-                        <ul class="sub-menu">
-                        <li><a href="category.html">Lifestyle</a></li>
-                        <li><a href="category.html">Health</a></li>
-                        <li><a href="category.html">Family</a></li>
-                        <li><a href="category.html">Management</a></li>
-                        <li><a href="category.html">Travel</a></li>
-                        <li><a href="category.html">Work</a></li>
-                        </ul>
-                    </li>
-                    <li class="has-children">
-                        <a href="#0" title="">Blog Posts</a>
-                        <ul class="sub-menu">
-                        <li><a href="single-video.html">Video Post</a></li>
-                        <li><a href="single-audio.html">Audio Post</a></li>
-                        <li><a href="single-gallery.html">Gallery Post</a></li>
-                        <li><a href="single-standard.html">Standard Post</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="styles.html" title="">Styles</a></li>
-                    <li><a href="page-about.html" title="">About</a></li>
-                    <li><a href="page-contact.html" title="">Contact</a></li>
-                </ul> <!-- end header__nav -->
-
-                <ul class="header__social">
-                    <li class="ss-facebook">
-                        <a href="https://facebook.com/">
-                            <span class="screen-reader-text">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="ss-twitter">
-                        <a href="#0">
-                            <span class="screen-reader-text">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="ss-dribbble">
-                        <a href="#0">
-                            <span class="screen-reader-text">Dribbble</span>
-                        </a>
-                    </li>
-                    <li class="ss-pinterest">
-                        <a href="#0">
-                            <span class="screen-reader-text">Behance</span>
-                        </a>
-                    </li>
-                </ul>
-
-            </nav> <!-- end header__nav-wrap -->
-
-            
-
-        </header> <!-- end s-header -->
-
-        <div class="s-content">
-            
-            <div class="masonry-wrap">
-
-                <div class="masonry">
-    
-                    <div class="grid-sizer"></div>
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-                            
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/thumbs/masonry/woodcraft-600.jpg" 
-                                        srcset="images/thumbs/masonry/woodcraft-600.jpg 1x, images/thumbs/masonry/woodcraft-1200.jpg 2x" alt="">
-                            </a>
+    <!-- header-->
+	
+	   <!-- program_details -->
+   <div class="attending_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                    <div class="main_attending_area">
+                        <div class="flower_1 d-none d-lg-block">
+                            <img src="img/appointment/flower-top.png" alt="">
                         </div>
-        
-                        <div class="entry__text">
-                            <div class="entry__header">
-    
-                                <h2 class="entry__title"><a href="single-standard.html">Just a Standard Format Post.</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Design</a> 
-                                        <a href="category.html">Photography</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 29, 2019</a>
-                                    </span>
-                                </div>
-                                
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
-                                </p>
-                            </div>
+                        <div class="flower_2 d-none d-lg-block">
+                            <img src="img/appointment/flower-bottom.png" alt="">
                         </div>
-        
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-quote animate-this">
-                            
-                        <div class="entry__thumb">
-                            <blockquote>
-                                <p>Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.</p>
-    
-                                <cite>Dieter Rams</cite>
-                            </blockquote>
-                        </div>   
-        
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-                            
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/thumbs/masonry/tulips-600.jpg" 
-                                        srcset="images/thumbs/masonry/tulips-600.jpg 1x, images/thumbs/masonry/tulips-1200.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">10 Interesting Facts About Caffeine.</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Health</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 28, 2019</a>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
-                                </p>
-                            </div>
-                        </div>
-        
-                    </article> <!-- end article -->
-                    
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/thumbs/masonry/dew-600.jpg" 
-                                        srcset="images/thumbs/masonry/dew-600.jpg 1x, images/thumbs/masonry/dew-1200.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Health Benefits Of Morning Dew.</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Lifestyle</a>
-                                        <a href="category.html">Health</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 28, 2019</a>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
-                                </p>
-                            </div>
-                        </div>
-        
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                            <div class="entry__thumb">
-                                <a href="single-standard.html" class="entry__thumb-link">
-                                    <img src="images/thumbs/masonry/rucksack-600.jpg" 
-                                            srcset="images/thumbs/masonry/rucksack-600.jpg 1x, images/thumbs/masonry/rucksack-1200.jpg 2x" alt="">
-                                </a>
-                            </div>
-            
-                            <div class="entry__text">
-                                <div class="entry__header">
-                                    
-                                    <h2 class="entry__title"><a href="single-standard.html">The Art Of Visual Storytelling.</a></h2>
-                                    
-                                    <div class="entry__meta">
-                                        <span class="entry__meta-cat">
-                                            <a href="category.html">Lifestyle</a>
-                                            <a href="category.html">Work</a>
-                                        </span>
-                                        <span class="entry__meta-date">
-                                            <a href="single-standard.html">Apr 26, 2019</a>
-                                        </span>
+                        <div class="row justify-content-center">
+                            <div class="col-xl-7 col-lg-8">
+                                <div class="popup_box ">
+                                    <div class="popup_inner">
+                                        <div class="form_heading text-center">
+											<p>WALIMATUL URUS</p>
+											<h3>Dr. Nur Hidayah<br> & <br>Dr. Mohamad Alif Nazmi</h3><br>
+											... <br><br>
+											<h3>Nur Amanina<br> & <br>Syed Najjmi</h3>
+											<br>
+                                            <p>SABTU<br>1 NOVEMBER 2020</</p>
+											
+                                        </div>
+									<!-- ISI SOMETHING HERE-->
                                     </div>
                                 </div>
-                                <div class="entry__excerpt">
-                                    <p>
-                                    Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
-                                    </p>
-                                </div>
-                            </div>
-            
-                        </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/thumbs/masonry/jump-600.jpg" 
-                                        srcset="images/thumbs/masonry/jump-600.jpg 1x, images/thumbs/masonry/jump-1200.jpg 2x" alt="">
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                
-                                <h2 class="entry__title"><a href="single-standard.html">Create Meaningful Family Moments.</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Family</a>
-                                        <a href="category.html">Relationship</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 26, 2019</a>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
-                                </p>
                             </div>
                         </div>
-    
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-audio animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-audio.html" class="entry__thumb-link">
-                                <img src="images/thumbs/masonry/guitarist-600.jpg" 
-                                     srcset="images/thumbs/masonry/guitarist-600.jpg 1x, images/thumbs/masonry/guitarist-1200.jpg 2x" alt="">
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-audio.html">What Your Music Preference Says About You and Your Personality.</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Lifestyle</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 24, 2019</a>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
-                                </p>
-                            </div>
-                        </div>
-    
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/thumbs/masonry/beetle-600.jpg" 
-                                        srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="">
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Throwback To The Good Old Days.</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Lifestyle</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 24, 2019</a>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
-                                </p>
-                            </div>
-                        </div>
-    
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-video animate-this">
-                            
-                        <div class="entry__thumb video-image">
-                            <a href="https://player.vimeo.com/video/117310401?color=339989&title=0&byline=0&portrait=0" data-lity class="entry__thumb-link">
-                                <img src="images/thumbs/masonry/cookies-600.jpg" 
-                                     srcset="images/thumbs/masonry/cookies-600.jpg 1x, images/thumbs/masonry/cookies-1200.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-video.html">No Sugar Oatmeal Cookies.</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Lifestyle</a>
-                                        <a href="category.html">Health</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 24, 2019</a>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
-                                </p>
-                            </div>
-                        </div>
-        
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/thumbs/masonry/lamp-600.jpg" 
-                                        srcset="images/thumbs/masonry/lamp-600.jpg 1x, images/thumbs/masonry/lamp-1200.jpg 2x" alt="">
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Another Standard Format Post.</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Design</a>
-                                        <a href="category.html">Photography</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 24, 2019</a>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
-                                </p>
-                            </div>
-                        </div>
-    
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-link animate-this">
-                        
-                        <div class="entry__thumb">
-                            <div class="link-wrap">
-                                <h2>Powerful web & Wordpress hosting. Guaranteed. Starting at $2.59/mo!</h2>
-                                <cite>
-                                    <a target="_blank" href="https://www.dreamhost.com/r.cgi?287326">https://www.dreamhost.com</a>
-                                </cite>
-                            </div>
-                        </div>
-                        
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-gallery animate-this">
-                            
-                        <div class="entry__thumb slider">
-                            <div class="slider__slides">
-                                <div class="slider__slide">
-                                    <img src="images/thumbs/masonry/gallery/slide-1-600.jpg" 
-                                         srcset="images/thumbs/masonry/gallery/slide-1-600.jpg 1x, images/thumbs/masonry/gallery/slide-1-1200.jpg 2x" alt=""> 
-                                </div>
-                                <div class="slider__slide">
-                                    <img src="images/thumbs/masonry/gallery/slide-2-600.jpg" 
-                                         srcset="images/thumbs/masonry/gallery/slide-2-600.jpg 1x, images/thumbs/masonry/gallery/slide-2-1200.jpg 2x" alt=""> 
-                                </div>
-                                <div class="slider__slide">
-                                    <img src="images/thumbs/masonry/gallery/slide-3-600.jpg" 
-                                         srcset="images/thumbs/masonry/gallery/slide-3-600.jpg 1x, images/thumbs/masonry/gallery/slide-3-1200.jpg 2x" alt="">  
-                                </div>
-                            </div>
-                        </div>
-        
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-gallery.html">The Best Tropical Leaves Images.</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Vacation</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 23, 2019</a>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
-                                </p>
-                            </div>
-                        </div>
-        
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/thumbs/masonry/walk-600.jpg" 
-                                        srcset="images/thumbs/masonry/walk-600.jpg 1x, images/thumbs/masonry/walk-1200.jpg 2x" alt="">
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Using Repetition and Patterns in Photography.</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Work</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 23, 2019</a>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
-                                </p>
-                            </div>
-                        </div>
-    
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/thumbs/masonry/real-600.jpg" 
-                                        srcset="images/thumbs/masonry/real-600.jpg 1x, images/thumbs/masonry/real-1200.jpg 2x" alt="">
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">How We Live Is What Makes Us Real.</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Travel</a>
-                                        <a href="category.html">Vacation</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <a href="single-standard.html">Apr 23, 2019</a>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
-                                </p>
-                            </div>
-                        </div>
-    
-                    </article> <!-- end article -->
-    
-                </div> <!-- end masonry -->
-
-            </div> <!-- end masonry-wrap -->
-
-            <div class="row">
-                <div class="column large-full">
-                    <nav class="pgn">
-                        <ul>
-                            <li><a class="pgn__prev" href="#0">Prev</a></li>
-                            <li><a class="pgn__num" href="#0">1</a></li>
-                            <li><span class="pgn__num current">2</span></li>
-                            <li><a class="pgn__num" href="#0">3</a></li>
-                            <li><a class="pgn__num" href="#0">4</a></li>
-                            <li><a class="pgn__num" href="#0">5</a></li>
-                            <li><span class="pgn__num dots">…</span></li>
-                            <li><a class="pgn__num" href="#0">8</a></li>
-                            <li><a class="pgn__next" href="#0">Next</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
-        </div> <!-- end s-content -->
-
-
-        <!-- footer
-        ================================================== -->
-        <footer class="s-footer">
-            <div class="row">
-                <div class="column large-full footer__content">
-                    <div class="footer__copyright">
-                        <span>© Copyright Typerite 2019</span> 
-                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <!--/ program_details -->
+	
+		   <!-- invitation_details -->
+   <div class="attending_area">
+        <div class="container">
+            <div class="row">
+                    <div class="main_attending_area">
+                        <div class="row justify-content-center">
+                           
+                               
+                                    <img src="img/bismillah.svg" alt="">
 
-            <div class="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+									Dengan penuh kesyukuran kami,
+									
+
+Hj Basri Bin Hj Ahmad
+&
+Hjh Robiah Binti Hj Yunus
+
+Mengundang yang berbahagia
+Tan Sri/Puan Sri/Dato’ Seri/Datin Seri/Dato’/Datin/ Tuan/Puan/Encik/Cik
+ke Majlis Perkahwinan Puteri kami
+
+Farhana Binti Basri
+&
+Muhammad Zafri Bin Burhan</p>
+									<!-- ISI SOMETHING HERE-->
+                                    
+                               
+                            
+                        </div>
+                    </div>
+               
             </div>
-        </footer>
+        </div>
+    </div>
+    <!--/ invitation_details -->
 
-    </div> <!-- end s-wrap -->
+    <!-- wedding_countdown -->
+    <div class="weeding_countdown_area">
+        <div class="flowaers_top d-none d-lg-block">
+            <img src="img/banner/flower-top.png" alt="">
+        </div>
+        <div class="flowaers_bottom d-none d-lg-block">
+                <img src="img/banner/flower-bottom.png" alt="">
+            </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center">
+                        <img src="img/banner/flowers.png" alt="">
+                        <span>1 November 2020</span>
+                        <h3>Menghitung Hari</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div id="clock" class="countdown_area counter_bg ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ wedding_countdown -->
+
+    <!-- program_details -->
+    <div class="program_details_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center">
+                        <img src="img/banner/flowers.png" alt="">
+                        <h3>Aturcara Majlis</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="single_program program_bg_1 text-center">
+                        <div class="program_inner ">
+                            <span>
+                                16.00
+                            </span>
+                            <h3>Wedding Ceremony</h3>
+                            <p>Many variations of passages of Lorem Ipsum available, but the majority have suffered
+                                alteration in some content of a page when looking at its layout. </p>
+                            <img src="img/program_details/ornaments.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="single_program program_bg_2 text-center">
+                        <div class="program_inner ">
+                            <span>
+                                20.00
+                            </span>
+                            <h3>Lunch Time</h3>
+                            <p>Many variations of passages of Lorem Ipsum available, but the majority have suffered
+                                alteration in some content of a page when looking at its layout. </p>
+                            <img src="img/program_details/ornaments.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="single_program program_bg_3 text-center">
+                        <div class="program_inner ">
+                            <span>
+                                22.00
+                            </span>
+                            <h3>WeParty Time</h3>
+                            <p>Many variations of passages of Lorem Ipsum available, but the majority have suffered
+                                alteration in some content of a page when looking at its layout. </p>
+                            <img src="img/program_details/ornaments.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ program_details -->
+
+    <!-- attend_area -->
+    <div class="attending_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                    <div class="main_attending_area">
+                        <div class="flower_1 d-none d-lg-block">
+                            <img src="img/appointment/flower-top.png" alt="">
+                        </div>
+                        <div class="flower_2 d-none d-lg-block">
+                            <img src="img/appointment/flower-bottom.png" alt="">
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-xl-7 col-lg-8">
+                                <div class="popup_box ">
+                                    <div class="popup_inner">
+                                        <div class="form_heading text-center">
+                                            <h3>Berminat Untuk Hadir?</h3>
+                                            <p>Sila isi borang di bawah sebelum 1 Oktober 2020</p>
+                                        </div>
+                                        <form action="#">
+                                            <div class="row">
+                                                <div class="col-xl-12">
+                                                    <input type="text" placeholder="Your Name">
+                                                </div>
+                                                <div class="col-xl-12">
+                                                    <input type="text" placeholder="Phone number">
+                                                </div>
+                                                <div class="col-xl-12">
+                                                    <input type="text" placeholder="Email">
+                                                </div>
+                                                <div class="col-xl-12">
+                                                    <select class="form-select wide" id="default-select" class="">
+                                                        <option data-display="1 Guest">1 Guest</option>
+                                                        <option value="1">2 Guest</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-xl-12">
+                                                    <textarea placeholder="Additional Message"></textarea>
+                                                </div>
+                                                <div class="col-xl-12">
+                                                    <button type="submit" class="boxed_btn3">R.S.V.P</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / attend_area -->
+    <div class="attending_area">
+        <div class="container">
+            <center>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.96290899605!2d102.42760841513558!3d2.167810498419864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1ea5a17d6e67b%3A0x2544399c801e718a!2sPoliteknik%20Merlimau!5e0!3m2!1sen!2smy!4v1597547916497!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</center>
+		</div>
+	</div>
+
+<section class="location_area">
+    <div class="location_info">
+        <div class="location_inner">
+            <div class="location_top text-center">
+                    <h3>Lokasi</h3>
+                    <p>Dewan Politeknik Merlimau<br>
+                            <span>Pn. Sariati 011xxxxxxx</span> </p>
+            </div>
+        </div>
+    </div>
+</section>
 
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
+   <!-- footer_start -->
+   <footer class="footer">
+    <div class="footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="quick_links">
+                        <ul>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<!-- footer_end -->
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
     <script src="js/main.js"></script>
 
+    <script>
+        $('#clock').countdown('2020/11/01', function (event) {
+            $(this).html(event.strftime(
+                '<div class="countdown_wrap d-flex"><div  class="single_countdown"><h3>%D</h3><span>Hari</span></div><div class="single_countdown"><h3>%H</h3><span>Jam</span></div><div class="single_countdown"><h3>%M</h3><span>Minit</span></div><div class="single_countdown"><h3>%S</h3><span>Saat</span></div></div>'
+            ));
+        });
+    </script>
+    <script>
+        function initMap() {
+            var uluru = {
+                lat: -25.363,
+                lng: 131.044
+            };
+            var grayStyles = [{
+                    featureType: "all",
+                    stylers: [{
+                            saturation: -90
+                        },
+                        {
+                            lightness: 50
+                        }
+                    ]
+                },
+                {
+                    elementType: 'labels.text.fill',
+                    stylers: [{
+                        color: '#ccdee9'
+                    }]
+                }
+            ];
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: {
+                    lat: -31.197,
+                    lng: 150.744
+                },
+                zoom: 9,
+                styles: grayStyles,
+                scrollwheel: false
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap">
+    </script>
+
+
+
 </body>
+
+</html>
