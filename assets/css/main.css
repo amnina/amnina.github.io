@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700");
 @import url("https://fonts.googleapis.com/css?family=Scheherazade:700");
 /*
 	Story by HTML5 UP
@@ -210,6 +210,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 2.25rem;
+		font-weight: 700;
 	}
 	
 	h2.arabic {
